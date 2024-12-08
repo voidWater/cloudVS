@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-scroll-list": "/uni_modules/uview-ui/components/u-scroll-list/u-scroll-list"
+  }
+}

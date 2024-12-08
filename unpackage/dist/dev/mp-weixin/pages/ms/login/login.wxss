@@ -1,0 +1,29 @@
+
+.head.data-v-2997d3da{
+	width: 100%;
+	text-align: center;
+	margin-top: 200rpx;
+}
+.foot.data-v-2997d3da{
+	position: fixed;
+	width: 100%;
+	bottom: 66rpx;
+}
+.no-botton.data-v-2997d3da{
+	text-align: center;
+	padding: 30rpx 0 0 0;
+	font-weight: bold;
+	color: #3c9cff;
+}
+.ys-c.data-v-2997d3da{
+	font-size: 25rpx;
+	padding: 0 30rpx 0 30rpx;
+	margin-bottom: 100rpx;
+}
+.radio.data-v-2997d3da{
+	float: left;
+}
+.font-red.data-v-2997d3da{
+	color: red;
+}
+

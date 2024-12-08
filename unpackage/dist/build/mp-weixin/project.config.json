@@ -1,0 +1,29 @@
+{
+    "description": "项目配置文件。",
+    "packOptions": {
+        "ignore": [],
+        "include": []
+    },
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false,
+        "newFeature": true,
+        "bigPackageSizeSupport": true,
+        "babelSetting": {
+            "ignore": [],
+            "disablePlugins": [],
+            "outputPath": ""
+        }
+    },
+    "compileType": "miniprogram",
+    "libVersion": "3.4.3",
+    "appid": "wx7f1ad36d21e5df70",
+    "projectname": "cloudVS",
+    "condition": {},
+    "editorSetting": {
+        "tabIndent": "insertSpaces",
+        "tabSize": 4
+    }
+}

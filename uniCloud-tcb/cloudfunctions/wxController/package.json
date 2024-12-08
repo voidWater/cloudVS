@@ -1,0 +1,9 @@
+{
+  "name": "wxController",
+  "dependencies": {
+    "app-data": "file:../common/app-data"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

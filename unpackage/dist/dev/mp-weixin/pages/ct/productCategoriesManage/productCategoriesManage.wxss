@@ -1,0 +1,8 @@
+
+.bottm.data-v-01ffd76c{
+	position: fixed;
+	bottom: 10rpx;
+	width: 100%;
+}
+
+

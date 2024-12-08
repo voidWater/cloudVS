@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/ct/main/main",
+    "pages/sy/main/main",
+    "pages/hk/main/main",
+    "pages/ct/productCategoriesManage/productCategoriesManage",
+    "pages/ms/login/login",
+    "pages/index/index",
+    "pages/ct/productManage/productManage",
+    "pages/hk/login/login",
+    "pages/hk/editAddr/editAddr",
+    "pages/hk/user/user",
+    "pages/hk/order/order",
+    "pages/hk/mapChooseAddr/mapChooseAddr",
+    "pages/hk/addrList/addrList",
+    "pages/hk/editOrderInfo/editOrderInfo",
+    "pages/hk/confirmOrder/confirmOrder",
+    "pages/hk/marke/marke",
+    "pages/hk/orderInfo/orderInfo",
+    "pages/hk/mapChooseAddr_gd/mapChooseAddr_gd",
+    "pages/ct/login/login",
+    "pages/ct/categoryManage/categoryManage",
+    "pages/ct/categoryManage/editCategory/editCategory",
+    "pages/ct/storeManage/storeManage",
+    "pages/ct/storeManage/editStore/editStore",
+    "pages/sy/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/hk/main/main",
+        "iconPath": "static/mian.png",
+        "selectedIconPath": "static/mian1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/hk/order/order",
+        "iconPath": "static/order.png",
+        "selectedIconPath": "static/order1.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/hk/user/user",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序定位"
+    }
+  },
+  "requiredPrivateInfos": [
+    "onLocationChange",
+    "chooseAddress",
+    "getLocation",
+    "choosePoi",
+    "chooseLocation",
+    "startLocationUpdate",
+    "startLocationUpdateBackground"
+  ],
+  "plugins": {},
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

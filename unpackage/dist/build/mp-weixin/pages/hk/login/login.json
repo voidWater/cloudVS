@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-radio": "/uni_modules/uview-ui/components/u-radio/u-radio"
+  }
+}

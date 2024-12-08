@@ -1,0 +1,12 @@
+
+page{
+	background-color:#f0f0f0;
+}
+.main{
+	padding: 20rpx;
+	background:repeating-linear-gradient(to bottom,#39b54a,#fff);
+}
+.content{
+	border-radius: 20rpx;
+}
+

@@ -1,0 +1,8 @@
+
+.radius-top{
+	border-radius: 20rpx 20rpx 0 0
+}
+.radius-bottom{
+	border-radius: 0 0 20rpx 20rpx
+}
+

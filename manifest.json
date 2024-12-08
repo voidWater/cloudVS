@@ -1,0 +1,115 @@
+{
+    "name" : "比比谁送快",
+    "appid" : "__UNI__D019683",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Geolocation" : {},
+            "Maps" : {},
+            "OAuth" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "dSYMs" : false
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "android" ]
+                    },
+                    "amap" : {
+                        "name" : "amapBWPMMoyus",
+                        "__platform__" : [ "android" ],
+                        "appkey_ios" : "4da7b02ca50b849590bc88a4042abf79",
+                        "appkey_android" : "88ddd4b69f84ee850e325a2ecf1bec8d"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "name" : "amapBWPMMoyus",
+                        "appkey_ios" : "4da7b02ca50b849590bc88a4042abf79",
+                        "appkey_android" : "88ddd4b69f84ee850e325a2ecf1bec8d"
+                    }
+                },
+                "oauth" : {
+                    "univerify" : {}
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxee9b1b6d60da556e",
+        "setting" : {},
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序定位"
+            }
+        },
+        "requiredPrivateInfos" : [
+            "onLocationChange",
+            "chooseAddress",
+            "getLocation",
+            "choosePoi",
+            "chooseLocation",
+            "startLocationUpdate",
+            "startLocationUpdateBackground"
+        ],
+        "plugins" : {},
+        "optimization" : {}
+    },
+    "requiredPrivateInfos" : [ "chooseLocation", "getLocation" ],
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "2"
+}

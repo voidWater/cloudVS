@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "map-location-picker-polygons": "/components/liupishui-pickerpolygons/liupishui-pickerpolygons"
+  }
+}

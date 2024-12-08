@@ -1,0 +1,10 @@
+{
+  "name": "userController",
+  "dependencies": {
+    "app-data": "file:../common/app-data",
+    "wx-common": "file:../common/wx-common"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

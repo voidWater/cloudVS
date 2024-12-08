@@ -1,0 +1,1 @@
+<view style="height:100vh;"><map-location-picker-polygons vue-id="0b9b2dc0-1" qqmapsdkKey="{{qqmapsdkKey}}" polygons="{{polygons}}" data-event-opts="{{[['^selected',[['selected']]]]}}" bind:selected="__e" bind:__l="__l"></map-location-picker-polygons></view>

@@ -1,0 +1,7 @@
+
+.flsd{
+	position: fixed;
+	top: 0rpx;
+	z-index: 99999999;
+}
+

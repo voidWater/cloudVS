@@ -1,0 +1,1 @@
+.btw{display:flex;flex-direction:row;justify-content:space-between;padding-bottom:20rpx}.panel{background-color:#fff;margin:18rpx;border-radius:20rpx;padding:20rpx}.panel .head{padding-bottom:20rpx}.panel .date{padding:15rpx 0 10rpx 0;margin-top:10rpx}.pan-ad{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:start;align-items:center;margin:20rpx 0rpx}

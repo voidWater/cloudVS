@@ -1,0 +1,13 @@
+
+.dx{
+	margin: 20rpx;
+}
+.dx .title{
+	margin-left: 30rpx;
+}
+.weight{
+	text-align: center;
+	margin: 50rpx 0 20rpx 0;
+	font-size: 48rpx;
+}
+

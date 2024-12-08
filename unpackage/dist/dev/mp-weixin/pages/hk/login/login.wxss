@@ -1,0 +1,40 @@
+
+.head.data-v-e1e88920{
+	width: 100%;
+	text-align: center;
+	margin-top: 600rpx;
+	color: #41a863;
+}
+.head .title.data-v-e1e88920{
+	font-size: 60rpx;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 30rpx;
+}
+.head .sub-title.data-v-e1e88920{
+	font-size: 28rpx;
+	margin-top: 20rpx;
+}
+.foot.data-v-e1e88920{
+	position: fixed;
+	width: 100%;
+	bottom: 66rpx;
+}
+.no-botton.data-v-e1e88920{
+	text-align: center;
+	padding: 30rpx 0 0 0;
+	font-weight: bold;
+	color: #41a863;
+}
+.ys-c.data-v-e1e88920{
+	font-size: 25rpx;
+	padding: 0 30rpx 0 30rpx;
+	margin-bottom: 100rpx;
+}
+.radio.data-v-e1e88920{
+	float: left;
+}
+.font-red.data-v-e1e88920{
+	color: red;
+}
+

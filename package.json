@@ -1,0 +1,16 @@
+{
+    "id": "liupishui-pickerpolygons",
+    "name": "小程序区域范围内选点插件",
+    "displayName": "小程序区域范围内选点插件",
+    "version": "0.04",
+    "description": "选取划定范围内的区域的地址。多用于区域范围内小区的物流配送、维修服务等等",
+    "keywords": [
+        "小程序区域范围内选点插件"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}
